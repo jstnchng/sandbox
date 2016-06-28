@@ -17,3 +17,6 @@ Cultivate Your Impatience
    even optimize for them (we get good at repeating the steps, even though we'd
    be better off eliminating them -- I see this as related to obsessive compulsive
    behaviors)
+
+make small changes, commit working code often so you have a progression + easy to revert to last working code
+	smaller change = less to debug!
