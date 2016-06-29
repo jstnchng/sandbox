@@ -27,3 +27,7 @@ shared tools = increased productivity
 hit the biggest unknown with all your effort
 
 refactoring is easier than writing new code
+
+trust people to write good software, don't trust people to do what the software does
+	(e.g. testing)
+	machines are good at doing what machines are built to do, people do repeated tasks poorly
