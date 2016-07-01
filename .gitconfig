@@ -1,0 +1,29 @@
+[color]
+  ui = true
+[user]
+  name = Justin Chng
+  email = jchang@riotgames.com
+
+[alias]
+  st = status
+  ci = commit
+  cia = commit --amend
+  cim = commit -m 
+  br = branch
+  co = checkout
+  pr = pull --rebase
+  lg = log -p
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit --date-order
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all --date-order
+  ls = ls-files
+
+  # Set upstream
+  su = branch -u
+
+  # Show files ignored by git
+  ign = ls-files -o -i --exclude-standard
+[core]
+  autocrlf = input
+  editor = vim
+[push]
+  default = simple
