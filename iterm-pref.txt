@@ -1,0 +1,5 @@
+color:					dark background
+text:					box
+font:					12 pt Fira Mono
+transparency:			~10%
+blur:					~45%
