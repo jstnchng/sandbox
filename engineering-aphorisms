@@ -1,16 +1,16 @@
-pain driven development 
+pain driven development
 	let your needs and your pain drive your development
 
-tighten your feedback loop 
+tighten your feedback loop
 
-work on your efficiency with your tools. they don’t directly help you in your development, but the more comfortable you are with your tools, the more you can focus. not through narrowing your focus but removing unnecessary stuff from your window 
+work on your efficiency with your tools. they don’t directly help you in your development, but the more comfortable you are with your tools, the more you can focus. not through narrowing your focus but removing unnecessary stuff from your window
 
 pair programming is good, bc both speed each other up
 
 the less precise you have to be the better
   (aka "not having to aim")
 
-Cultivate Your Impatience 
+Cultivate Your Impatience
  - for the things that break your flow
  - for machines, software, for the number of steps it takes you to do something
  - this is not for people, you should have deep patience for the people around you, that's a part of kindness, which is a virtue
@@ -32,3 +32,14 @@ trust people to write good software, don't trust people to do what the software 
 	machines are good at doing what machines are built to do, people do repeated tasks poorly
 
 tech + process + people
+
+make sure your code runs before you commmit anything...
+
+before you try anything new
+    check the state of the world
+    have an expectation of what will happen
+    have a plan to verify what happened
+
+always save your state- you can binary search from your last working state to troubleshoot
+
+git commit messages should convey intent
