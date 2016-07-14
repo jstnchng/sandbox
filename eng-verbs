@@ -43,3 +43,5 @@ before you try anything new
 always save your state- you can binary search from your last working state to troubleshoot
 
 git commit messages should convey intent
+
+deleting data is a sin
