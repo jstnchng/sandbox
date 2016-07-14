@@ -96,3 +96,4 @@ alias s='cd ..'
 alias zshreload='source ~/.zshrc'
 alias f='find . -name'
 alias bake='~/bin/bake'
+eval $(thefuck --alias oops)
