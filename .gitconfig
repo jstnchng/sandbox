@@ -2,13 +2,12 @@
   ui = true
 [user]
   name = Justin Chng
-  email = jchang@riotgames.com
 
 [alias]
   st = status
   ci = commit
   cia = commit --amend
-  cim = commit -m 
+  cim = commit -m
   br = branch
   co = checkout
   pr = pull --rebase

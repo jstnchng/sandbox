@@ -1,10 +1,35 @@
-set nocompatible              " be iMproved, required
-set number
+" Use Vim settings, rather then Vi settings (much better!).
+" This must be first, because it changes other options as a side effect.
+set nocompatible
+" Adjust esckeys option timeout length
+set timeoutlen=300
 syn on
 filetype off                  " required
 
-" lets backspace/delete erase chars
-set backspace=2
+set history=1000                "Store lots of :cmdline history
+set showcmd                     "Show incomplete cmds down the bottom
+set showmode                    "Show current mode down the bottom
+set gcr=a:blinkon0              "Disable cursor blink
+set visualbell                  "No sounds
+set autoread                    "Reload files changed outside vim
+set backspace=indent,eol,start  "Make backspace work properly
+set laststatus=2                "Turn on status line
+" set exrc                        "Enable per-directory .vimrc files
+set secure                      "Disable unsafe commands in local .vimrc files
+set incsearch                   "Search incrementally instead of after I press enter
+set number                      "Show line numbers
+
+" This makes vim act like all other editors, buffers can
+" exist in the background without being in a window.
+" http://items.sjbach.com/319/configuring-vim-right
+set hidden
+
+" turn on syntax highlighting
+syntax enable
+
+" Automatically remove trailing whitespace
+autocmd BufWritePre * :%s/\s\+$//e
+
 set tabstop=4
 set shiftwidth=4
 set selection=exclusive
