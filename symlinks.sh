@@ -25,5 +25,4 @@ function ensure_symlink () {
 
 ensure_symlink $PROJ_ROOT/.zshrc $HOME/.zshrc
 ensure_symlink $PROJ_ROOT/.vimrc $HOME/.vimrc
-ensure_symlink $PROJ_ROOT/.gitconfig $HOME/.gitconfig
 

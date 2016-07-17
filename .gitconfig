@@ -1,7 +1,8 @@
 [color]
   ui = true
 [user]
-  name = Justin Chng
+  name = Justin Chang
+  email = jchang@riotgames.com
 
 [alias]
   st = status
