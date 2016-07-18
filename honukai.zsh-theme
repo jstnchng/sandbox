@@ -18,10 +18,10 @@ local current_dir='${PWD/#$HOME/~}'
 YS_VCS_PROMPT_PREFIX1=" %{$fg[white]%}on%{$reset_color%} "
 YS_VCS_PROMPT_PREFIX2=":%{$fg[cyan]%}"
 YS_VCS_PROMPT_SUFFIX="%{$reset_color%}"
-# YS_VCS_PROMPT_DIRTY=" %{$fg[red]%}Δ"
-# YS_VCS_PROMPT_CLEAN=" %{$fg[green]%}Ξ"
-YS_VCS_PROMPT_DIRTY=" %{$fg[red]%}变"
-YS_VCS_PROMPT_CLEAN=" %{$fg[green]%}諧"
+YS_VCS_PROMPT_DIRTY=" %{$fg[red]%}Δ"
+YS_VCS_PROMPT_CLEAN=" %{$fg[green]%}Ξ"
+# YS_VCS_PROMPT_DIRTY=" %{$fg[red]%}变"
+# YS_VCS_PROMPT_CLEAN=" %{$fg[green]%}諧"
 # YS_VCS_PROMPT_CLEAN=" %{$fg[green]%}衡"
 
 
