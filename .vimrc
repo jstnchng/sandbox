@@ -30,6 +30,7 @@ syntax enable
 " Automatically remove trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
+set expandtab
 set tabstop=4
 set shiftwidth=4
 set selection=exclusive
