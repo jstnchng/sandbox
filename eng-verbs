@@ -47,3 +47,6 @@ git commit messages should convey intent
 losing user data is a sin
 
 racecar drivers don't take their hands off the steering wheel- don't take your hands off the home row!
+
+everything in git is revertable unless you force push
+do not rewrite history in git
