@@ -50,3 +50,7 @@ racecar drivers don't take their hands off the steering wheel- don't take your h
 
 everything in git is revertable unless you force push
 do not rewrite history in git
+
+program by wishful thinking
+    write what you want to be able to do, and then implement that if possible
+    program not by declarations, program by intent
