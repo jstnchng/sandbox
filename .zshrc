@@ -86,7 +86,7 @@ source $ZSH/oh-my-zsh.sh
 alias c='clear'
 alias ll='ls -la'
 ## a quick way to get out of current directory ##
-alias ..='cd ..'
+alias ..='cd ../../'
 alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../'
