@@ -1,0 +1,118 @@
+I start too many of my blog posts like this, but I pay too much for this site
+and write too little, so I guess this is a good time for my annual revisit to my
+blog and to add some content. My past posts have been pretty philosophical in
+content, so in my next "series" of posts, I'd like to discuss some of the more
+technical engineering oriented things I've learned from my internship at Riot
+Games this summer.
+
+Today, I'd like to talk about the cult of vim, and why I am now a flag waving card
+bearing vim fanatic. My first exposure to vim was from Jae's Advanced
+Programming course (CS3157) in my sophomore year, and my god, I hated vim so
+much. I did most of the course assignments in vim because he introduced us to
+and suggested using vim, and every minute of vim just sucked for me. I hated not being able to scroll, I
+hated having to type ":w" to write a file, I hated having to press insert to
+start typing, and worst of all, when I was editing, I hated pressing the arrow
+key to move through characters of a line.
+
+I understood that unless there was some masochistic trend amongst
+programmers, vim was probably not as hard to use as I thought it would be, but I
+was too lazy to learn pointers + learn vim commands, so I just accepted that
+insert mode was weird and movement in vim was crappy.
+
+After my experience in vim, I was introduced to IntelliJ from my internship at
+OTC Markets, and I was a pretty big fan. I could click on stuff and use my mouse
+and use my debugger, and I thought IDEs were pretty awesome. In my own personal
+work, from recommendations from friends, I usually used Sublime Text 2 and it
+was pretty decent for what I wanted it to do. I thought editors were just tools
+for programming, and since the meat of programming seemed to me to be the
+technical concept, quibbling about editors felt like putting the cart before the
+horse.
+
+I started using vim again and explored using it seriously after a recommendation from my colleague at Riot, the
+awesome Kyle Burton. To be technically correct, he didn't recommend me use vim
+and he was fine with me using
+sublime, but after watching him work in vim, I was convinced that vim was either
+super awesome or he was some kind of wizard (maybe both, still not sure
+Kyle...). I was deeply impressed by how fast he could execute commands to
+manipulate text from vim, and I felt like, despite the steep learning curve and
+the bad first experience, I was slow enough in Sublime that ramping up to
+parity wouldn't take too much effort. Now I pretty much use vim exclusively for
+programming, I have a vim plugin installed for when I'm working in Java, and
+sometimes I press shift-v to try to select lines in Google Docs.
+
+I'd like to describe in this post some of my thoughts regarding reasons to
+switch to vim I found personally compelling, challenges to switching to vim
+(there are some!), and some of my personal vim settings & findings.
+
+There is a saying in the software engineering world that 90% of programming is
+thinking and 10% is actually coding. I find that some people (me included) use
+that as a justification for less mastery over the editor. Since most of us spend
+most of our time thinking instead of typing, the logic is that optimizing for typing
+speed and editor speed doesn't yield that much of a gain. Personally, despite
+making the argument a couple of times in the past, I don't really buy this
+anymore. In my opinion, even if the premise is true, there are still very solid
+gains to be made for editing faster even in the 10% block of time a programmer
+is actually coding. However, the real benefit of using a tool that you're very
+familiar with (and that could be vim, or any other editor), is that editing
+becomes second nature. If my primary focus in programming is to think about the
+problems, then I want to be as focused as I possibly can be, and any divergence
+in my thought or any distractions in my window of focus from thinking about my
+editor is *bad*. It doesn't matter how small the distraction is, how short the
+command is, any thinking you have to do about your editor is a distraction from
+your focus and that is *bad*.
+I like this comic about programming: [INSERT IMG HERE]
+And I think it also applies in your editor. The less noisy your editor is in
+your mind, the faster you can do things with your tools, the better it is for
+your focus. In my mind that is a strong reason for switching to vim.
+
+Another strong plus of vim is that vim is available anywhere. I am recently
+beginning to appreciate this more, but vim requires no download, no
+installation, no setup, and almost anywhere where there is a UNIX environment,
+you can edit stuff with vim. That turns out to be super useful both when you
+change to a new machine, or more commonly, when you're working on another
+machine or in a VM. Even without your personal vimrc, vanilla vim is pretty
+decent and more than enough for most editing purposes. To me, it boils down to
+ease of portability, and in a Java-esque manner, vim is write once edit anywhere
+(:p).
+
+If vim is that awesome, why don't more people use vim? Well, one of the
+significant challenges of moving to vim is the steep learning curve. I've been
+using vim every day for almost 2 months now, and I'm only starting to scratch
+the surface of beginning to "grok" vim. Vim is, for all intents and purposes, as
+far as I know, infinitely powerful, and as you learn more, there will be more
+and more commands and movement and tricks to learn until you can convince your
+friends and family that you are a vim wizard. The learning curve, in my mind,
+looks something like this-
+
+The line represents parity with most common text editors (obviously a subjective
+line, applicable to me & probably most common computer users). In the next half
+of the post, therefore, I'd like to discuss some of my understanding of the
+philosophy of vim, and how to address some of the challenges of vim.
+
+// vim modes
+There's a lot that's confusing with vim, and one of the biggest things I think
+stumps new users of vim is the modal system of vim. Vim operates in a few
+different modes, the most important of which (imo, for a new user) is normal,
+insert, command, and visual mode.
+
+// vim philosophy- what is the essence of vim?
+// text manipulation + vim as a language
+// Zen of vim, with verbs, nouns, objects, etc.
+// benefit of atomicity
+
+// vim goes much deeper, there's still macros etc, more commands, etc.
+
+// what is the best way of learning vim
+
+// some of my custom enhancements to vim, my vimrc, my vim cheatsheet, etc.
+
+I've only started using vim really recently, so there's still a ton left for me
+to learn. I think the next goal for me is to learn how to use tabs and buffers
+more efficiently, since I still think of them in terms of files instead of
+blocks of text. I would be more than happy to hear any comments/ suggestions/ lessons regarding
+either making my vim-ming more efficient or intelligent or any awesome plugins
+or .vimrc lines I've been missing out on. I'd also love to convert more people
+to vim, so if you're thinking of taking the leap and climbing the curve, please
+let me know! I'd be happy to discuss vim with you anytime.
+
+p.s. I typed this post in vim. I regret nothing.

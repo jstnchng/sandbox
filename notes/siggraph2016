@@ -1,0 +1,110 @@
+SIGGRAPH 2016 Notes
+
+* Get in Shape *
+- labor intensive to represent spline surfaces, requires set # of CV
+- hard to do complex shapes (rigid deformities)
+- autospline architecture
+    - knot objects
+        - transformable, serve as a pivot
+        - serve as multiple CVs
+        - made from discrete scene primitives
+    - spline
+        - one or two knots
+        - serve as curves, no literal CVs for splines
+- knot properties:
+    define point in space as spline intersections
+- allows for simpler manipulation of complex shapes
+- discussed in relation to Hank's tentacles from Finding Dory
+
+* Deadpool *
+- cloud rendering (servers on the cloud)
+- provides easy rendering and sharing files
+- parallelism in cloud rendering
+    - linear run time => parallelism
+- "linear usage of blades you own to parallel usage of blades you don't own"
+
+* Delivering Doomdays, Meteor FX *
+- heat shield, plasma, lightning, wind field, smoke trails, etc.
+* Volcano *
+- big scale, huge simulation time
+- use checkpoints to reduce render time (save points)
+- wedges on top of initial simulation
+- initially low res for coarse behavior
+    - hard to apply shaping forces and low res -> high res changes look a lot
+- use base and then deform, retime, extend, combine (4 transformations)
+    - reuse simulations
+- sample to points, deform, then rebuild the shape
+- wedges, isosurfaces (?)
+- combine surfaces
+
+* Physically based rendering *
+- microfacet vs microflakes (?)
+- multiscale BRDF
+    - treat as finite area
+- wave models
+- band limiting light (1-100 nano), nanogeometry, diffraction
+
+* Piper *
+- water as volume, not as surface (defers rendering)
+- GIN, follow geometry of the beach
+- tree of transformations
+Lighting
+- subjects not objects (framed close)
+- cognizant of environment
+    - water as character
+    - shifts of time of day, e.g. morning w softer diffuse light
+- authenticity not reality
+    - semblance of reality not mimicking
+- physical lights & camera for realistic images, but shy away from hyper detail
+- establish world and then stay consistent inside the world
+    - physical lights and camera, not physical materials
+- feature selection of iconic times
+- soft colors in the morning
+  visceral change in midday (hot, harsh, but not unappealing)
+- let it reflect/ refract real world
+- position lights physically in space
+
+* Inner Workings *
+- discuss different shot types
+
+* Human Body Digitization *
+- Translate humans to graphics
+- trending: view point videos, virtual avatars, VR and AR
+- social interaction thru cyberspace
+    - visual humans
+- different components
+    - hair, face, clothes, body, hands all require different models
+- realtime 3d scanning instead of combining images from different angles into 1
+- parameters control shape of the body
+    - extract best parameters for capturing body
+- faces
+    - linear models + joint representation
+- hair
+    - physical model (not deterministic)
+- correspondence
+    - figure out correspondence between images
+- use template to model scan result
+- propagate correspondence thru holes
+    - propagate textures
+- faces
+    - motion capture, digital face creation
+    - "pinscreen"
+
+* Dance Correspondence w Convolution Neural Networks *
+- non rigid correspondence doesn't work for large pose changes
+- try to use vertices to match stuff instaed
+    - cannot reliably handle holes in mesh
+- use deep convolution neural net to get feature descriptors
+- multiple segmentation to group classification => more similar descriptors
+- fit segmented data
+
+* Biomedical Imaging *
+- lots of application, e.g. 3d brain scanning thru several images, reconstruct and practice difficult surgeries
+- construction of teeth images, etc.
+
+* Technical Papers Fast Forward *
+- deep neural nets a big topic, used to obtain good representation of images
+- lots of stuff on proper rigging
+- lots of research on deformation & how to properly move complex shapes
+- research on better monte carlo ray tracing
+- research on better representation of hair, cloth, plants, etc.
