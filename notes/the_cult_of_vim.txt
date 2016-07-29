@@ -190,12 +190,18 @@ inefficient, is a decent way to start learning vim.
 // some of my custom enhancements to vim, my vimrc, my vim cheatsheet, etc.
 
 I've only started using vim really recently, so there's still a ton left for me
-to learn. I think the next goal for me is to learn how to use tabs and buffers
+to learn. The next goal for me is to learn how to use tabs and buffers
 more efficiently, since I still think of them in terms of files instead of
 blocks of text. I would be more than happy to hear any comments/ suggestions/ lessons regarding
-either making my vim-ming more efficient or intelligent or any awesome plugins
-or .vimrc lines I've been missing out on. I'd also love to convert more people
+making my vim-ming more efficient, any awesome plugins
+or .vimrc lines I've been missing out on, or the philosophy of vim. I'd also love to convert more people
 to vim, so if you're thinking of taking the leap and climbing the curve, please
 let me know! I'd be happy to discuss vim with you anytime.
 
-p.s. I typed this post in vim. I regret nothing.
+I would like to finish this post with a vim koan:
+No ultimate difference
+One day a monk visited Master Wq, and inquired, “Master, how will my code be different when I have mastered Vim?”
+Master Wq answered, “Before Vim: declare, define, process, print. After Vim: declare, define, process, print.”
+source: https://sanctum.geek.nz/arabesque/vim-koans/
+
+p.s. I typed this post in vim.
