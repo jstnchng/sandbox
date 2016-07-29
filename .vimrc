@@ -74,7 +74,8 @@ autocmd VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
-au BufNewFile,BufRead *.txt set wrap
+au BufRead,BufNewFile *.md setlocal textwidth=80
+au BufRead,BufNewFile *.txt setlocal textwidth=80
 
 " Vundle allows easy installation of vim plugins
 " set the runtime path to include Vundle and initialize
