@@ -37,6 +37,7 @@ Kyle...). I was deeply impressed by how fast he could execute commands to
 manipulate text from vim, and I felt like, despite the steep learning curve and
 the bad first experience, I was slow enough in Sublime that ramping up to
 parity wouldn't take too much effort. Now I pretty much use vim exclusively for
+//java ide
 programming, I have a vim plugin installed for when I'm working in Java, and
 sometimes I press shift-v to try to select lines in Google Docs.
 
@@ -64,6 +65,7 @@ I like this comic about programming: [INSERT IMG HERE]
 And I think it also applies in your editor. The less noisy your editor is in
 your mind, the faster you can do things with your tools, the better it is for
 your focus. In my mind that is a strong reason for switching to vim.
+//concretely write short iterative tests
 
 Another strong plus of vim is that vim is available anywhere. I am recently
 beginning to appreciate this more, but vim requires no download, no
@@ -75,15 +77,17 @@ decent and more than enough for most editing purposes. To me, it boils down to
 ease of portability, and in a Java-esque manner, vim is write once edit anywhere
 (:p).
 
+// maybe a good title: use a challenge!
 If vim is that awesome, why don't more people use vim? Well, one of the
 significant challenges of moving to vim is the steep learning curve. I've been
 using vim every day for almost 2 months now, and I'm only starting to scratch
 the surface of beginning to "grok" vim. Vim is, for all intents and purposes, as
 far as I know, infinitely powerful, and as you learn more, there will be more
-and more commands and movement and tricks to learn until you can convince your
+and more commands and movement and //tricks// to learn until you can convince your
 friends and family that you are a vim wizard. The learning curve, in my mind,
 looks something like this-
 
+// be willing to put in the effort
 The line represents parity with most common text editors (obviously a subjective
 line, applicable to me & probably most common computer users). In the next half
 of the post, therefore, I'd like to discuss some of my understanding of the
@@ -111,6 +115,7 @@ to learn. I think the next goal for me is to learn how to use tabs and buffers
 more efficiently, since I still think of them in terms of files instead of
 blocks of text. I would be more than happy to hear any comments/ suggestions/ lessons regarding
 either making my vim-ming more efficient or intelligent or any awesome plugins
+// more people could benefit from vim
 or .vimrc lines I've been missing out on. I'd also love to convert more people
 to vim, so if you're thinking of taking the leap and climbing the curve, please
 let me know! I'd be happy to discuss vim with you anytime.
