@@ -89,7 +89,7 @@ looks something like this-
 The line represents parity with most common text editors (obviously a subjective
 line, applicable to me & probably most common computer users). In the next
 section
-of the post, therefore, I'd like to discuss some of my understanding of the
+of the post, therefore, I'd like to discuss my understanding of the
 philosophy of vim, and how to address some of the challenges of vim.
 
 // vim modes
@@ -116,12 +116,76 @@ It turns out that that is a completely wrong way to think about vim.
 
 // vim philosophy- what is the essence of vim?
 // text manipulation + vim as a language
+The correct way of using vim, in my opinion, is to generally stay in normal mode, and
+only leave for short bursts of typing in insert mode. The philosophy of this is
+that vim commands are meant to be combined, and this makes a lot more sense once
+you begin grokking vim, and stop seeing files as something you edit, but instead
+as gridlike blocks of text that you can freely manipulate and command.
+
 // Zen of vim, with verbs, nouns, objects, etc.
+The "Zen" of vim is that you're speaking a language, and a good way I learned to
+think about normal mode commands is as a language, with verbs,
+nouns, and adjectives. The verbs are your commands, such as 'c' (change), 'd'
+(delete), 'y' (yank), the nouns are your movements, such as 'w' (word), '}'
+(paragraph), or 'G' (eof), and the adjectives/adverbs are your numerical
+prefixes and your descriptors, such as 'a' (around) and 'i' (in). vim commands
+are meant to be combined into "sentences," which on a higher level, describes
+to vim what you want to do.
+
+This turns out to be an incredibly powerful idea. Think of the time you spend
+actually inserting new text when you program, versus the time you spend moving
+around, copying text, deleting characters, etc. I would wager that the
+latter far outweighs the former. Part of the power of vim is that with proper
+knowledge of the commands, you can very quickly manipulate, move, copy, remove,
+replace, and delete text, leaving the actual typing of new code in short bursts
+in insert mode. The more vim you know, the shorter and more informative your
+descriptions are, and the more powerful vim becomes as a tool.
+
 // benefit of atomicity
+Another great benefit of using vim to its full power is the '.' command. The '.'
+command repeats the last command line change, and so the more succint and the
+more stuff your last command does, the more useful the '.' becomes. For example,
+if your last command was 'x' (delete 1 char after the cursor), then '.' is the
+same as 'x'. However, if you'd like to delete multiple words without counting
+them, or indent text, '.' is helpful as a "macro" for your last command.
 
 // vim goes much deeper, there's still macros etc, more commands, etc.
 // discuss learning curve of vim, some commands don't make sense, h,j,k,l
 // what is the best way of learning vim
+This really only begins to scratch the surface of vim, and there's still a ton
+of commands and tools in vim that I don't know how to use yet. It can be
+daunting for someone coming into vim to be willing to take the dive and pay the
+high upfront cost of learning vim, so in this next section, I'd like to talk
+about what is maybe vim's greatest challenge- its super high learning curve.
+
+When I learned about models for the atom in middle school & high school, I
+began by learning models that were largely incorrect, but were helpful in
+providing enough understanding to eventually refine our models. I think in a
+very similar way, learning vim is much easier when you ignore all the commands
+except the ones you immediately need. Instead of thinking of learning vim as
+learning the commands first and then trying to use every single one, remember
+that vim, just like any editor, is ultimately your tool. Describe to it what you
+want it to do, and then learn how to speak the vim language.
+
+What is the first thing you'd like your editor to be able to do? A great place
+to start is the ability to move up, down, left, and right by characters. The
+first thing I learned in vim was to use h,j,k,l instead of the arrow keys, and
+got familiar with keeping my hands on the home row.
+Once moving with h,j,k,l started to suck (and it did pretty soon) I started to
+learn other movement commands such as moving by 'w' (word), 'b' (back 1
+word) and '}' (paragraph). Once those movement commands started to be
+insufficient, I learned more powerful commands such as 'f_' (find next char),
+'/' (search), and 'z(t,z,b)' (keeps cursor in current position but scrolls view
+top, center, or bottom of the screen).
+
+Let your pain drive your development, and trust that if something feels *bad*,
+there's probably a vim command for it. I found it a much more effective way to
+learn vim via describing to vim something I wanted to do, and once that proved
+to be annoying or painful, learn and describe to vim something more powerful.
+In my opinion, it's better to not try to learn every single command and use
+macros immediately. The plum model, while very wrong, is a decent model to start
+learning the structure of atoms, and moving by h,j,k,l, while kind of
+inefficient, is a decent way to start learning vim.
 
 // some of my custom enhancements to vim, my vimrc, my vim cheatsheet, etc.
 
