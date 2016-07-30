@@ -76,6 +76,7 @@ au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 au BufRead,BufNewFile *.md setlocal textwidth=80
 au BufRead,BufNewFile *.txt setlocal textwidth=80
+au FileType javascript setlocal ts=2 sw=2
 
 " Vundle allows easy installation of vim plugins
 " set the runtime path to include Vundle and initialize
