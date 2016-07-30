@@ -25,25 +25,23 @@ insert mode was weird and movement in vim was crappy.
 
 After my experience in vim, I was introduced to IntelliJ from my internship at
 OTC Markets, and I was a pretty big fan. I could click on stuff and use my mouse
-and use my debugger, and I thought IDEs were pretty awesome. In my own personal
+and run a debugger, and I thought wow! IDEs were pretty awesome. In my own personal
 work, from recommendations from friends, I usually used Sublime Text 2 and it
 was pretty decent for what I wanted it to do. I thought editors were just tools
 for programming, and since the meat of programming seemed to me to be the
 technical concept, quibbling about editors felt like putting the cart before the
 horse.
 
-I started using vim again and explored using it seriously after a recommendation from my colleague at Riot, the
-awesome Kyle Burton. To be technically correct, he didn't recommend me use vim
-and he was fine with me using
-sublime, but after watching him work in vim, I was convinced that vim was either
+I started using vim again and explored using it seriously after working with my colleague at Riot, the
+awesome Kyle Burton. One time when we were pair programming I watched him work
+in vim, and I was convinced that vim was either
 super awesome or he was some kind of wizard (maybe both, still not sure
 Kyle...). I was deeply impressed by how fast he could execute commands to
 manipulate text from vim, and I felt like, despite the steep learning curve and
 the bad first experience, I was slow enough in Sublime that ramping up to
 parity wouldn't take too much effort. Now I pretty much use vim exclusively for
-//java ide
-programming, I have a vim plugin installed for when I'm working in Java, and
-sometimes I press shift-v to try to select lines in Google Docs.
+programming, I have a vim plugin installed for when I'm working in IntelliJ, and
+sometimes I even press shift-v to try to select lines in Google Docs.
 
 There are a couple of benefits of adopting vim, but in my mind, the most
 important one is that vim is an incredibly productive editor.
@@ -66,7 +64,6 @@ your focus and that is *bad*.
 I like this comic about programming: [INSERT IMG HERE]
 And I think it also applies in your editor. The less noisy your editor is in
 your mind, the faster you can do things with your tools, the better it is for
-//concretely write short iterative tests
 your focus - and that is perhaps the most compelling argument for switching to vim.
 
 Another strong plus of vim is that vim is available anywhere. I am recently
@@ -79,17 +76,15 @@ decent and more than enough for most editing purposes. To me, it boils down to
 ease of portability, and in a Java-esque manner, vim is write once edit anywhere
 (:p).
 
-// maybe a good title: use a challenge!
 So why don't more people use vim? Well, one of the
 significant challenges of moving to vim is the steep learning curve. I've been
 using vim every day for almost 2 months now, and I'm only starting to scratch
 the surface of beginning to "grok" vim. Vim is, for all intents and purposes, as
 far as I know, infinitely powerful, and as you learn more, there will be more
-and more commands and movement and //tricks// to learn until you can convince your
+and more commands and tips and tricks to learn until you can convince your
 friends and family that you are a vim wizard. The learning curve, in my mind,
 looks something like this-
 
-// be willing to put in the effort
 The line represents parity with most common text editors (obviously a subjective
 line, applicable to me & probably most common computer users). In the next
 section
@@ -198,9 +193,9 @@ to learn. The next goal for me is to learn how to use tabs and buffers
 more efficiently, since I still think of them in terms of files instead of
 blocks of text. I would be more than happy to hear any comments/ suggestions/ lessons regarding
 making my vim-ming more efficient, any awesome plugins
-// more people could benefit from vim
-or .vimrc lines I've been missing out on, or the philosophy of vim. I'd also love to convert more people
-to vim, so if you're thinking of taking the leap and climbing the curve, please
+or .vimrc lines I've been missing out on, or the philosophy of vim. I'd also
+love to see if more people could benefit from vim,
+ so if you're thinking of taking the leap and climbing the curve, please
 let me know! I'd be happy to discuss vim with you anytime.
 
 I would like to finish this post with a vim koan:
