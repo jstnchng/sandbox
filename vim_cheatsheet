@@ -1,0 +1,69 @@
+viewing:
+:e            	open a new file in buffer
+:b            	jump to buffer
+:sp         	split screen (horizontal)
+:vs            	split screen (vertical)
+tabe [file]    	open file in a new tab
+gt            	switch tabs, right
+gT            	switch tabs, left
+#gt           	skip to # tab
+ctrl-w-r    	switch two buffers
+ctrl-w-w    	move clockwise to next buffer
+ctrl-w-mvmt   	move to [direction] buffer
+tabm #        	relocate tab to # (index at 1)
+za/A        	close/open folds (recursively)
+
+inserting:
+i             	insert at cursor
+I             	insert to the left of cursor
+o             	insert line below
+O             	insert line above
+a             	append after cursor
+A             	append at end of the line
+ea             	append at end of the word
+Esc            	exit insert mode
+yyp            	yank into clipboard and paste
+:pbcopy        	copy into clipboard
+“*            	yank results into copy buffer
+
+editing:
+x            	deletes 1 char or all selected
+dd            	deletes 1 line
+u            	undo
+ctrl-R        	redo
+~            	flips the case
+/            	search
+    n, N    	go to next found, go to prev found
+cw            	changes next word
+caw            	delete a word, go to insert mode
+“_            	uses aims black hole register
+df[c]        	delete to next [c] char
+
+movement:
+    k
+h        l
+    j
+0            	go to start of line
+$            	go to end of line
+{ }         	go to beginning/end of current paragraph
+( )            	go to beginning/end of sentence
+H/M/L        	move to high/medium/low of window
+gg, G        	go to front/end of file
+#G           	jump to # line
+w            	jump by start of words
+e            	jump to end of words
+b            	jump backwards by words
+f, F            finds a char right/left
+
+visual mode:
+:v            	cursor to cursor
+:V            	line by line
+:ctrl-V        	selects a rectangle
+
+misc:
+“            	indicates next character is name of a register
+ctrl-n        	auto-complete
+:syn on        	syntax highlighting on
+:set num    	show line numbers
+so $MYVIMRC    	reload vimrc w/o quitting vim
+

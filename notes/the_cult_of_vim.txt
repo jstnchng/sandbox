@@ -85,9 +85,12 @@ and more commands and tips and tricks to learn until you can convince your
 friends and family that you are a vim wizard. The learning curve, in my mind,
 looks something like this-
 
-The line represents parity with most common text editors (obviously a subjective
-line, applicable to me & probably most common computer users). In the next
-section
+(Disclaimer: These images are my own subjective view, based on editors that I've
+used before.)
+As you can see, the learning curve is less of a curve, and more of a wall.
+Learning vim is super hard, and it feels like fighting with your editor
+when you start, but for me, once I worked with vim more, I started sliding down the
+learning curve and boosting my productivity. In the next section
 of the post, therefore, I'd like to discuss my understanding of the
 philosophy of vim, and how to address some of the challenges of vim.
 

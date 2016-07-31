@@ -36,6 +36,7 @@ set shiftwidth=4
 set selection=exclusive
 " makes yank/delete operations copy to clipboard
 set clipboard=unnamed
+set clipboard=unnamedplus
 " folds by indents, folds automatically disabled
 set foldmethod=indent
 set nofoldenable
