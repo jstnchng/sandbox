@@ -28,6 +28,7 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'junegunn/seoul256.vim'
 " Airline status bar
 Plugin 'bling/vim-airline'
+Plugin 'jeetsukumaran/vim-buffergator'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -74,6 +75,10 @@ let g:NERDSpaceDelims = 1
 let g:NERDCommentEmptyLines = 1
 " Enable trimming of trailing whitespace when uncommenting
 let g:NERDTrimTrailingWhitespace = 1
+" Enable the list of buffers
+let g:airline#extensions#tabline#enabled = 1
+" Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t'
 let g:rbpt_colorpairs = [
     \ ['brown',       'RoyalBlue3'],
     \ ['Darkblue',    'SeaGreen3'],
