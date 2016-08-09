@@ -66,6 +66,8 @@ set nofoldenable
 let mapleader = "\<Space>"
 map <leader>k 10k
 map <leader>j 10j
+map <leader>w 5w
+map <leader>b 5b
 :inoremap jk <Esc>
 
 " Settings for plugins
