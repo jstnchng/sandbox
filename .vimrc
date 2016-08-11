@@ -68,6 +68,8 @@ map <leader>k 10k
 map <leader>j 10j
 map <leader>w 5w
 map <leader>b 5b
+nnoremap <leader>O O<ESC>O
+nnoremap <leader>o o<cr>
 :inoremap jk <Esc>
 
 " Settings for plugins
