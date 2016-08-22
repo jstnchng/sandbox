@@ -1,0 +1,213 @@
+What is agile?
+agile programming comic, what is agile
+Agile as a buzzword
+good agile, bad agile
+
+what is good about agile? why agile
+three more programmers comic
+    focus on delivering value to the customer
+    lots of small quick iterations
+    easy to see progress
+    figure out whats important to iterate on and improve
+    ceramics
+
+what is bad about agile? why not agile?
+    not a lot of clean up time
+    big emphasis on value, there are indirect things too
+    things are hard to estimate, hard to measure motivation and energy
+    difficult to keep teams/projects on track, lots of pressure and easy to
+slack/ lose discipline
+    a lot of disciplined organization
+
+agile is a PM methodology, idea is to ship more software
+it serves more as a tool
+
+goal of Agile is to be agile
+so adapt the Agile tools as you need to figure out what works best for your team
+& for your project
+
+> insert agile programming, writing code, complaining comic
+In today's blog post I'd like to discuss the Agile methodology and some of my
+opinions and thoughts about Agile. In particular, I will talk about good Agile,
+about bad Agile, and about agile Agile. These are very driven by my personal
+experience, so YMMV and I would be very interested in hearing different
+perspectives.
+
+What is Agile?
+The Agile methodology is a set of principles commonly used for software
+development. Under the Agile methodology, requirements and solutions evolve
+through adaptive planning, early delivery, and continuous iteration with the
+goal of flexible and fast building of software. The philosophy of the Agile
+methodology is described here (Agile Manifesto). The motivation of Agile is that
+in a world where requirements are unpredictably evolutionary and estimates,
+plans, and predictions are almost invariably inaccurate, it is more efficient
+and makes more sense to iterate frequently and adapt to changes as they come.
+There are a lot of different processes and tools under the Agile methodology,
+but they generally promote and facilitate communication, collaboration, and
+adaptability throughout the software development life-cycle.
+
+The term "agile" was coined in 2001 with the creation of the Agile Manifesto,
+and since then, the Agile methodology has been hailed & evangelized by many
+people who bring it up as a lightweight alternative to previous development
+philosophies, such as Waterfall and Cowboy, to name a few. There are now Agile
+conferences and training and coaches, and I find that "Agile," just like all
+popular business/ development ideas, has become a bit of a meme, joining the
+hallowed hall of business buzzwords along with "synergy," "organic," and "growth
+hack."
+
+Good Agile
+Memes aside, I think there are a lot of great things about Agile. Both engineering teams at my last two
+internships (OTC Markets and Riot Games) used Agile heavily to develop their
+software, and for good reason.
+
+> three more programmers comic
+
+Emphasis on Delivering Value
+One of the biggest pros to using Agile is its focus on delivering user value.
+The primary focus of any player in League is to destroy the enemy nexus. CS-ing
+helps, killing enemies helps, taking objectives helps, but you win by destroying
+the nexus. Similarly, in my opinion, the primary focus of any engineer is to
+deliver user value in some way. Working with new technologies helps, using different
+languages helps, and learning theory helps, but ultimately the goal is to serve
+some kind of user value. Product development in the Agile way is split into
+"sprints," set periods of work in which specific work is completed. At my last
+two internships, each sprint was a two week period of development. Each sprint
+begins with a planning period, during which the scope of the work for the sprint
+is determined, and ends with a review and a retro. During the sprint, the
+development team works on "user stories," small tasks the team commits to during
+the planning period. This entire process is very focused on user value, from
+planning to execution to review. Each user story describes and provides some
+kind of user value, and at the end of each sprint something tangible (should)
+will be provided to the user. As a engineering newb, I found this super helpful.
+I tend to get distracted by interesting problems or fancy new technology that are not always the most
+relevant or useful, so by focusing on user value through user stories in
+sprints, I can best ship, deliver and improve a useful product.
+
+Small, quick iterations
+I heard this story from one of my coworkers at Riot, Kyle. There was an
+experiment done where two groups of people were tasked to make the best ceramic
+pot they could. One group (group A) was asked to do one iteration, and take as much time
+as they needed. The other group (group B) was asked to do multiple iterations
+under a short time frame for each pot. It turns out, at the end of the
+experiment, those who had made multiple pots had much nicer ceramic pots than
+those who had dedicated their time to one pot ("waterfalled" it, if I may).
+The same idea, I think, extends to software. Software is cheap (relatively) and
+easy to write (relatively), so the cost of iteration tends to be low. In that
+case, the more iterations that a software development team can churn out, the
+better and the more accurate the final product will be. Agile processes lend
+themselves to these benefits because of the segmented & shorter nature of these
+processes (e.g. Sprints, user stories, etc.)
+
+Fast and flexible improvements
+Because Agile is so focused on delivering value to the customer and promotes
+quick iterations, a third big benefit of the Agile methodology is that it
+becomes easier to determine what is important to iterate on and improve. In a
+world where requirements are often incorrect, unclear, uncertain, and very
+mutable, the tighter the feedback loop the faster the improvement. By putting
+out a minimum viable product (MVP) and then iterating upon it, the development
+team can figure out what features to add or to improve. To extend the ceramic
+pots analogy, imagine you're asked to make some open-top ceramic container. An
+Agile-y way to go about it is by first making a really shitty bowl
+fig 1
+and then making a shitty pot
+fig 2
+and then making a pot with a better shape
+fig 3
+and then making a well shaped pot thats nicely decorated
+fig 4
+But by using quick iterations and a tight feedback loop, you can rapidly
+prototype ceramic pots and end up with a nice result.
+
+Bad Agile
+So if Agile is so awesome, why don't more people and companies use Agile? Well,
+Agile is a tool, and just like any tool, there is the good and there is the bad,
+and there is, unfortunately, also a lot of bad Agile.
+
+Agile Hammer, Stiff Nails
+The first point is that when all you have is an Agile hammer, everything tends
+to look a lot like nails. Unfortunately, not all problems are appropriate for
+the Agile methodology.
+> smash gif with hammer
+For example, one of Agile's tenets is fail fast. By failing quickly, we can
+learn from our iterations and prototypes and improve upon them. However, in the
+case of rocket launches, it is both cost prohibitive to fail fast on a rocket
+launch and also morally wrong, as people's lives are at stake. So Agile may be
+inappropriate for something that cannot be iterated upon. Another example is
+building a bridge- it is pretty unlikely, once the design is finalized, that the
+requirements of the bridge will be changing drastically midway through
+construction. In cases where the requirements are very well known, I think Agile
+is less appropriate.
+It is true that this is of no fault of Agile, but it remains something to
+consider nonetheless.
+
+Housekeeping and Spring Cleaning
+Another con of Agile is because of its emphasis on user value, some things get
+put aside and live on the backlog permanently. Things that do not directly
+provide user value in the form of new features or improved features are often
+deprioritized (in my experience) in the Agile process. As a result, there isn't
+a lot of time dedicated to housekeeping, and prototypes are often treated as
+products. This is of course heavily dependent on the team and on its members and
+on the company, but it seems like because stuff like refactoring or cleaning up
+code is not direct user value, it is often tossed on the backlog as a nice to
+do.
+In addition, because of an emphasis on providing user value immediately, things
+that would provide longer term value are sometimes ignored.
+> dilbert standup comic
+It is difficult in a
+short sprint to work on the long term goals and easy to postpone them when the
+team is driven to do the tasks
+that would most immediately make an impact. Similarly, it is easier to convince
+myself to do the dishes and take out the trash than to clean out the closet and
+do my spring cleaning.
+
+Estimating work and motivation
+An important aspect of Agile is the ability to estimate progress and to
+continually iterate. This is obviously very difficult because of unexpected
+complexities. Everyone knows how it feels to take on a 1 day piece of work and
+have it take a week instead. Work is really hard to estimate, and oftentimes
+accurate estimates only come after the work is finished.
+In addition, it's really hard to measure motivation and energy. People don't
+always operate in two week sprints, and sometimes people are less motivated or
+have less energy in that sprint, and less work gets delivered.
+
+Disciplined Team, Disciplined Agile
+> artificial sense of urgency comic
+I think however, the biggest negative of Agile is that it requires an intensely
+focused and disciplined team to be able to properly use Agile. Because Agile so
+heavily relies on every team member during the development process in every
+sprint to determine what to iterate on and how, Agile requires a very
+disciplined and motivated team. In a world of continuous iteration and
+improvement, there is a ton of pressure to always deliver and it's very easy, in
+my opinion, to slack and lose discpline. Agile relies on a good product owner to
+figure out business direction, a good team of engineers to solve relevant
+problems and estimate reasonable work, and a good development manager to
+maintain and overlook sprint rituals and Agile processes. Most importantly, in
+order to continue to improve upon a product, you need a team that is motivated
+and invested in the success of the product- and that is not the easiest thing to
+have.
+
+agile Agile
+However, ultimately, Agile is just a tool. Just like the development of the
+product, the Agile process itself should be agile in iteration and improvement.
+Taking a hammer and trying to staple a piece of paper will fail, and I would not
+blame the hammer or the paper for the failure. It is important, I think, to
+recognize which tools are suitable for which job and to continually tailor and
+improve upon your tools for your most appropriate use case.
+For example, for some of the problems I brought up above, such as Housekeeping
+and Spring Cleaning, one idea I have seen is to introduce cleanup sprints
+dedicated to improving and refactoring and clearing up some of the accumulated
+technical debt. Another option is to put those items in as specific user stories
+so they are not merely acknowledged as nice to dos but planned intentionally
+within the sprint. For estimating work and motivation, appropriate planning plus
+retros will help determine what is feasible to take on in the future, and in a
+communicative team, motivation and level of energy is easy to share and discuss.
+All of these problems can be attributed to and solved by the teams using Agile,
+and are not necessarily reflective of the Agile methodology itself.
+I think the danger comes (as it often does) with the evangelists, who live and
+die by Agile and have the Agile Manifesto tattooed on the inside of their
+eyelids. Agile is a tool, not a prescription and definitely not a religion. The goal of Agile is to BE agile, and the philosophy
+and the tools are supposed to help with that. So what does agile Agile look
+like? In my opinion, just like products are continuously iterated and improved
+upon, processes should be continually iterated and improved upon. Take the
+general toolkit and essence of Agile, sift out the good Agile, remove the bad
+Agile, and work towards the agile Agile for your project and your team.

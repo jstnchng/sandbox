@@ -1,0 +1,263 @@
+three things:
+how to approach learning math
+why studying math is important
+a mathematician's apology
+
+learning math:
+http://www.more-onions.com/blog/2015/6/9/warrior
+eisenstein criterion
+surrender easily
+abstruse goose
+fighting theorems
+mu taos advice
+look at a specific number theory theorem
+extensibility to general things
+fight what you know, infinite truths and infinite of infinities
+    the astute listener will realize that both are uncountable infinities
+be an intellectual warrior
+thats how mathematics will help you
+
+which leads you to
+why studying math is important
+https://medium.com/@jeremyjkun/habits-of-highly-mathematical-people-b719df12d15e
+ppl say math is important or critical thinking
+here are some concrete helpful things about math
+discussing definitions
+counterexamples
+accepting being wrong, and being ok with it
+    making the argument not personal
+evaluating consequences
+exploring assumptions
+being able to abstract and understand things
+    writing papers as a proof
+
+a mathematicians apology
+the last thing i want to discuss is my personal experience into mathematics
+i liked math in high school and i was always pretty good at it
+started to hate math
+became an ordeal, less interesting and enjoyable
+less about the purity of the subject and more about the grade and the fear
+and thats not a good reason to take any class
+so i encourage you to see mathematics for its purity and its beauty and enjoy it as it is, not as a proof of your intelligence
+and if your interest is math, then follow your passion
+and if your interest change like mine did then thats ok, change your direction
+but i want to encourage you to follow what you love and find a direction that is meaningful and interesting to you
+
+The actual talk:
+** Introduction **
+Hi! My name is Justin, and I graduated from TAS 2013. I'm currently a senior at
+Columbia University studying mathematics and computer science, with a minor in
+architecture and art history.
+I'm very underqualified to be "giving a talk," so instead I'd like to just chat
+with you guys about a couple of things. I had three things I wanted to discuss:
+how to learn math, why studying math is important, and my personal experience
+studying mathematics.
+
+** How to learn math **
+So let's get started with the first segment: how to learn math.
+This is a section from the textbook I was using for my Modern Algebra class in
+my sophomore year. Don't worry about not understanding the specific bits,
+between you and me I barely understand the specific bits anymore. I put this
+here because I really like the wording- I think it's hilarious.
+"surrender easily" evokes this image of this old British dude brandishing a
+theorem at a Big Bad Polynomial in a valiant mathematical duel. I liked the idea
+of fighting every theorem, every math problem, of seeing solving problems as a
+way to make them yield & surrender.
+
+I like this comic and this quote a whole lot. In my freshman year, when I was
+first studying proof based math, I was taking and getting ruined by a linear
+algebra course. I went to my math professor Mu Tao Wang's office hours  in a
+desperate but unsuccessful attempt to make some sense of the mess that was proof
+based linear algebra in my head. I wanted some advice as to how to study, and
+how to begin properly learning the material and really understanding it. He gave
+me some advice that has slowly made more sense as I've studied and learned more
+math, and he told me that the way to properly read the material was to engage
+it. The way to learn a theorem is to test it and try it and challenge it, to see
+under what general cases it holds true, under what special cases it might not,
+what the edges cases are, what part of the theorem uses which of the given,
+which conditions are necessary, to grapple with it until you've proven to
+yourself without a doubt that it is true. In my experience, that's a very
+important part of learning math. It's easy to accept certain things as true by
+handwaving and accepting just the right amount of fuzziness to avoid hurting
+your brain, but I think to properly learn a subject you must fight it. Why is
+this the case? Can you prove that it is not? What counter examples come to mind,
+and why are they not counter examples? In my opinion, proper math learning is a
+very active endeavor- it is all too easy to let things go and accept a theorem
+to be true, but then you cheat yourself out of real understanding.
+
+I'd like to demonstrate this concept with a fairly simple theorem from number
+theory.
+
+The most exciting phrase to hear in science, the one that heralds new
+discoveries, is not 'Eureka!' but 'That's funny...' Isaac Asimov
+This idea extends to most other things. The best way to learn something is to do
+battle with it, otherwise it goes in one hole and comes out the other.
+
+This is a nice segway into the second part of the talk: why learning math is
+useful.
+** Discussing Definitions **
+An important skill that mathematicians develop is comfort with definitions, and
+fluidity and agility in learning and grappling with new definitions. After all,
+mathematics is primarily concerned with "proving" things to be definitively
+wrong or right, and in order to do so, you need to have strict and clear
+definitions. In addition, since mathematics works in a space of more abstract
+concepts, rigid definitions help us reason about more abstract things with more
+logical precision. A good example of this is the definition of real numbers.
+
+Real numbers as irrational, rational combined.
+Important part of modern analysis and set theory was the rigid mathematical
+definition of real numbers.
+Still not a clear benefit. Important in arguments about race, about gender,
+in your relationships, political,
+We have strong evidence of weapons of mass destruction in Iraq
+
+** Finding counterexamples **
+Another important part of discourse is finding examples and counterexamples
+an important part of evaluating abstract claims is by looking at specific
+examples and counterexamples
+really important in mathematics to be able to evaluate edge cases, to be able to
+study a claim and support it via examples or disprove it via counterexamples
+we make a lot of unproven claims and we hear a lot of unproven claims, and being
+able to identify edge cases is important. I say this also as a programmer, it's
+very important to be able to identify where an algorithm or a program might go
+wrong and the important examples to check. After all, not all examples are
+equally important. I can say that x*y where x and y are integers will
+always be positive, and you can list as many positive integers as you like, but
+ultimately the important edge case is where x or y is a negative integer and the
+other is not.
+
+** Embracing wrong-ness **
+Mathematical discourse is very unique in that most parties (or parties that are
+good are it or at least reasonable about it) easily switch claims and discourse
+is based entirely upon the validity of the argument. This is very different from
+most other forms of discourse, where
+this is because mathematicians are primarily concerned with the empirically
+provable truth beyond doubt through logic and building upon assumptions.
+Therefore, we're most interested in truth, and arguments are not personal and
+emotions are not attached as often as they are. This is an important quality to
+embrace in all discourse- to free yourself and your emotions from your argument
+and be open and willing to discuss new points of view in the pursuit of truth.
+
+** Evaluating consequences **
+We saw this earlier in the theorem we looked at together, but an important
+aspect of mathematics is evaluating consequences. When we look at a theorem,
+what are the consequences and extensions of this new theorem? This examination
+is important for two reasons:
+We either discover new interesting areas to explore, or we discover logical
+extensions that are inconsistent with existing knowledge, in which we've
+disproved the theorem.
+The same idea is useful in evaluating general claims. Oftentimes, without
+evaluating the validity of the argument itself, by examining its consequences,
+we can evaluate the claim itself.
+
+** Exploring Underlying assumptions **
+Mathematics is often regarded as rigor incarnate, but just like when we discovered
+2 other types of geometry different from Euclidean geometry, the
+underlying claims and assumptions of arguments are very important. As such, when
+we evaluate new theorems, an important technique is to evaluate the assumptions
+behind the theorem, and try to understand the theorem in context to its
+assumptions. It also lends itself to extensions as we change and manipulate the
+assumptions. The idea is to figure out the building blocks upon which the
+theorem is constructed.
+Another aspect of this is that in mathematical proofs, each step has an
+underlying assumption or intent behind it (we call this motivation). By
+understanding the **big idea** and the motivation behind proofs and theorems, we
+can often better understand the theorem.
+This is also applicable to the real world, since oftentimes when we find
+ourselves confused, it is the mathematical and most helpful thing to do to just
+evaluate the assumptions and understand the motivation behind things.
+
+** abstracting and extracting **
+Mathematics is, with perhaps the exception of philosophy, the most abstract
+field. It is an important skill as a mathematician to be able to scale the
+ladder of abstraction, and extract the essence of what is important in order to
+understand and make arguments.
+A good analogy is networking. When I type in google.com, a lot of stuff happens,
+and all that stuff happens at different "layers of abstraction." I can discuss
+hardware, I can discuss machine code, I can discuss bytes, I can discuss packets, I
+can discuss higher level software, and these all exist at different levels of
+abstraction. I don't have to understand hardware to do networking, and in fact I
+myself do a fair amount of web development without understanding a lot of the
+inner workings. I can turn on the lights without knowing exactly how the lights
+are turned on.
+In the same way, in mathematics, mathematicians often have to "scale" this
+ladder of abstraction, from understanding definitions and theorems, to the
+higher level argument, to the paper in relation to other papers, to the paper in
+relation to what's interesting in the field.
+This is important, because to understand certain things there is no need to
+understand it to its absolute detail- you can extract what you need by
+abstracting and black boxing what you don't.
+I actually write my papers in the same way that I write my mathematical proofs-
+the ability to evaluate consequences, explore assumptions, find counterexamples,
+provide definitions, and abstract arguments is really useful. most of my
+"brainstorming" and sketching actually comes in a really similar form as a math
+proof.
+
+** my personal experience **
+The last thing I want to talk about is my personal experience into mathematics
+I liked math in high school and I was always pretty good at it
+Math was kind of boring to me before though, and it was an ok class but never
+that interesting
+numbers and geometric shapes and basic algebra was easy to pick up, and it made
+sense, but the number chugging system of equations and find the length of the
+third side problems were super boring to me.
+I spent most of 11th grade mathematics drawing penises on my TI-84 by graphing
+them. In fact, I dropped ms connors honors class because I thought it was too
+hard and math was not that interesting.
+I started enjoying math in my senior year. I took calculus in IB math and I
+thought it was much more interesting, and I mentioned to Ms. Connor that I found
+that type of math interesting. The wonderful teacher that she is, Ms. Connor
+gave me a ton of her own material and I started working through all the calculus
+notes. Soon I was doing a ton of math outside of school, and it took up all of
+my time. I was bored for a long time, and math was deeply fascinating to me. I
+enjoyed learning at my own pace and being able to move as quickly or as slowly
+as I wanted to.  For the first time, I saw how interesting mathematics was, and
+how astonishing it was that everything just worked. It was beautifully shocking
+every time I learned a new concept and saw how it just fit. I was convinced that
+mathematics was art, and happily spent hours learning and appreciating the
+beauty of mathematics. When I went to college, I was set on studying
+mathematics, which was what was wanted (W5).
+
+But in venturing forth into what I would describe as "real" mathematics, I
+started stumbling into some roadblocks. Mathematics was (and rightfully so) no
+longer the joyous, self-paced journey it was before, and instead made rigorous
+and competitive by difficult material, constant problem sets, impossible exams,
+and smarter classmates. Drowned in the feeling that I was bad at math, I slowly
+began to lose my love of math, and I slowly forgot why I enjoyed mathematics at
+all. I came in as an intended pure math major, wanting to get a Ph.D. in math,
+and started second semester in a joint math/computer science major, goals now
+very far from a math professorship. Worst of all, when people asked me "why do
+you still do so much math?" I could not find a good answer.
+
+When I began studying for my final in May, all I could think about and worry
+about was my grade. Math was no longer enjoyable or interesting, but instead an
+ordeal that I had to get through. The awe and respect I had for mathematics was
+now replaced by fear and trepidation, and I regarded the final much like a
+dreaded visit to the dentist's office- painful, yet unavoidable. I got a 60% on
+my first college final and it was curved to a 69%, and I just had this drowning
+feeling like I was bad at math, something that I found so deeply enjoyable.
+But once I actually started studying the material, I underwent an amazing
+change- I once again began to appreciate mathematics. The way in which the
+material would expand in a wholly unexpected direction, and yet remain
+undeniable true and verifiable once again drew my awe and fascination. The way
+Greene's Theorem, Stoke's Theorem, and Gauss's Theorem related made intuitive
+sense to me, and the picture that was so hard to keep clear slowly lost its fog.
+By the time I finished studying, I re-found my love of mathematics, but also a
+deep sense of guilt that I had once forgotten it.
+
+
+The drive to do anything for the purpose of pursuing grades or prestige or
+boosting your college resume is a bad reason to do anything. It becomes less
+about the purity and enjoyment of the subject and more about what comes with the
+subject. so my encouragement for you all is to see mathematics for its purity
+and its beauty and enjoy it as it is, not as a proof of your intelligence, not
+as a way to get into college, not as a "smart thing to do after school." IF your
+interest is in math, then follow your passion
+For me, personally, my interest was math, but now I'm more engaged in computer
+science. And thats ok. if your interest change like mine did, then that's also
+ok, just change your direction
+but I say this because I want to encourage you to follow what you love and find
+a direction that is meaningful and interesting to you. And if you aren't sure
+what that is, just do interesting things until you figure it out.
+
+
