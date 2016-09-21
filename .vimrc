@@ -62,6 +62,11 @@ set clipboard=unnamed
 set foldmethod=indent
 set nofoldenable
 
+" ================ Turn Off Swap Files ==============
+set noswapfile
+set nobackup
+set nowb
+
 " Mappings
 let mapleader = "\<Space>"
 map <leader>k 10k
@@ -70,6 +75,7 @@ map <leader>w 5w
 map <leader>b 5b
 nnoremap <leader>O O<ESC>O
 nnoremap <leader>o o<cr>
+nnoremap <silent><leader>\ :set relativenumber!<cr>
 :inoremap jk <Esc>
 
 " Settings for plugins
