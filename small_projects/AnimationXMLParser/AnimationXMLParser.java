@@ -17,7 +17,7 @@ public class AnimationXMLParser{
     private static String firstPart = "<scene>\n<duration time=\"50.0\"/>\n"
         + "<integrator type=\"symplectic-euler\" dt=\"0.01\"/>\n"
         + "<maxsimfreq max=\"500.0\"/>\n";
-    private static String finalLine = "</scene>";
+    private static String finalLine = "<dragdamping b=\"1.25\"/>\n</scene>";
 
     private static String parseParticle (String line, int dx, int dy, double radius, double vx){
         String[] elmts = line.split("\t");
@@ -103,7 +103,7 @@ public class AnimationXMLParser{
                 writer.write(firstPart, 0, firstPart.length());
                 int index=0;
                 int dy = 40;
-                double vx = 100;
+                double vx = 150;
                 for (String line: lines){
                     String particle = parseParticle(line, 0, 0, 1, vx);
                     String particlecolor = parseColor(line, index);
