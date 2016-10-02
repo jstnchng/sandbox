@@ -1,0 +1,5 @@
+foo1
+foo2
+#include bar.txt
+foo3
+foo4
