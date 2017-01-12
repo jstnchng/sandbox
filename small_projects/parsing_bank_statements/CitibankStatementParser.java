@@ -78,10 +78,33 @@ public class CitibankStatementParser{
         itemTypes.put("Amazon", "Misc");
         itemTypes.put("Shake Shack", "Food");
         itemTypes.put("Trader Joes", "Food");
+        itemTypes.put("University Hardware", "Supplies");
+        itemTypes.put("Try the World", "Food");
+        itemTypes.put("Oren's", "Food");
+        itemTypes.put("Flat Top", "Food");
+        itemTypes.put("Mel's", "Food");
+        itemTypes.put("Roti Roll", "Food");
+        itemTypes.put("Milano's", "Food");
         // Types: Transportation, Clothing, Food, Travel, Supplies, Misc
     }
 
     private static String parseItem(String unparsedItem){
+        if(containsIgnoreCase(unparsedItem, "USA TECH-VEN*USA"))
+            return "Vending Machine";
+        if(containsIgnoreCase(unparsedItem, "MILANO MARKET"))
+            return "Milano's";
+        if(containsIgnoreCase(unparsedItem, "MEL'S BURGER"))
+            return "Mel's";
+        if(containsIgnoreCase(unparsedItem, "ROTI ROLL"))
+            return "Roti Roll";
+        if(containsIgnoreCase(unparsedItem, "FLAT TOP"))
+            return "Flat Top";
+        if(containsIgnoreCase(unparsedItem, "ORENS DAILY ROAST"))
+            return "Oren's";
+        if(containsIgnoreCase(unparsedItem, "UNIVERISTY HARDWARE"))
+            return "University Hardware";
+        if(containsIgnoreCase(unparsedItem, "TRY THE WORLD"))
+            return "Try the World";
         if(containsIgnoreCase(unparsedItem, "Trader Joe"))
             return "Trader Joes";
         if(containsIgnoreCase(unparsedItem, "SHAKE SHACK"))
@@ -241,6 +264,7 @@ public class CitibankStatementParser{
             // Path outputfile = Files.createFile(path);
             try (BufferedWriter writer = Files.newBufferedWriter(outputfile, charset)) {
                 for (String line: lines){
+                    // System.out.println(line);
                     String expense = parseLine(line);
                     if (expense != null && !expense.isEmpty()) {
                         writer.write(expense, 0, expense.length());
