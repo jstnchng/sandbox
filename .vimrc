@@ -76,7 +76,6 @@ map <leader>b 5b
 nnoremap <leader>O O<ESC>O
 nnoremap <leader>o o<cr>
 nnoremap <silent><leader>\ :set relativenumber!<cr>
-:inoremap jk <Esc>
 
 " Settings for plugins
 " add spaces after comment delimiters by default
