@@ -32,9 +32,10 @@ And that was when I realized I needed to reread the book.
 So this is my 2nd attempt at reading through Hofstadter's book, with the goal
 of really getting what this book is about. Unfortunately, this compression is lossy, as I have none of Hofstadter's wit,
 intelligence, and language, so what he says in a few thousand words I am surely
-incapable of capturing in a few sentences. My goal is just to better understand
-what he is trying to convey in GEB and hopefully have a better groundwork for an
-eventual third readthrough.
+incapable of capturing in a few sentences. My goal here is threefold:
+1) to better understand what he is trying to convey in GEB
+2) to hopefully have a better groundwork for an eventual third readthrough.
+3) to convince you to give the book a shot
 
 So what is GEB about?
 GEB is, as Hofstadter describes it, a "very personal attempt to say how it is
@@ -47,7 +48,6 @@ a paradoxical level-crossing feedback loop.
 These Strange Loops have examples in Escher, Bach, and Godel's work
 prevent the creation of a complete consistent system
 search for the "central solid essence" underpinning Godel Escher Bach
-
 
 ch2
 meaning arrives from meaningful isomorphisms between theorems of a formal system
