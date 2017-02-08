@@ -1,0 +1,97 @@
+This post is a review of Godel Escher Bach: An
+Eternal Golden Braid by Douglas Hofstadter. Technically this isn't really a
+"tech" post so doesn't belong in this section, especially since this isn't
+really a "technical" book but rather a book employing certain technical concepts
+to discuss consciousness and intelligence.
+
+I put it here for a few reasons:
+I read this book because of Steve Yegge's blog post (link)
+This book discusses stuff like grammars, the halting problem, recursively
+enumerable sets, stacks, formal systems, and Godel's Incompleteness Theorem
+I don't have enough posts in this section and would like to add some more
+
+This is a brilliant, brilliant book. This is one of the smartest books that I
+have ever read, and Hofstadter has a gift in presenting concepts in a humorous,
+but educational way, and connects examples from a wide range to bring together
+these concepts. I read this book two summers ago during my lunch breaks at OTC
+Markets, and after reading this book I started to read some reviews of it.
+
+One of the reviews that I read was by Hofstadter himself, who 20 years later
+lamented that most people misunderstood his book as a random collection of
+things he finds interesting and about how "math, art, and music are totally
+the same thing at the core man!!!" I found this tremendously funny and a little self gratifying
+since I thought I was clearly not one of those people. Months later, when I was
+recommending this book to a friend, he asked me what the book was about.
+
+Confidently, I answered- "Oh, this book is about how Godel, Escher, and Bach's
+ideas are connected and how systems are limited and each chapter is preceded by
+a dialogue between Achilles and a tortoise..."
+
+And that was when I realized I needed to reread the book.
+
+So this is my 2nd attempt at reading through Hofstadter's book, with the goal
+of really getting what this book is about. Unfortunately, this compression is lossy, as I have none of Hofstadter's wit,
+intelligence, and language, so what he says in a few thousand words I am surely
+incapable of capturing in a few sentences. My goal is just to better understand
+what he is trying to convey in GEB and hopefully have a better groundwork for an
+eventual third readthrough.
+
+So what is GEB about?
+GEB is, as Hofstadter describes it, a "very personal attempt to say how it is
+that animate beings can come out of inanimate matter." It is an attempt to
+describe the emergence of consciousness through what he calls strange loops,
+a paradoxical level-crossing feedback loop.
+
+(MC Escher)
+
+These Strange Loops have examples in Escher, Bach, and Godel's work
+prevent the creation of a complete consistent system
+search for the "central solid essence" underpinning Godel Escher Bach
+
+
+ch2
+meaning arrives from meaningful isomorphisms between theorems of a formal system
+& reality
+once we've mapped meaningful isomorphism, symbols unavoidably take on meaning
+natural question: how powerful can we create our formal systems to be? how much
+reality can be mapped?
+goal: create a formal system that has all statements of number theory and rules
+that correspond to our reasoning
+
+ch3
+if we can create theorems in formal systems, are they the same as nontheorems?
+in art, is the figure the same as the ground?
+there are some formal systems where you can lay out theorems typographically and
+cannot lay out nontheorems typographically (recursive, r.e. sets, and recursive,
+r.e. languages)
+potential complexity of formal systems to "go backwards" that results in
+limitative results like the halting problem or godels incompleteness theorem
+
+ch4
+meaning arises from isomorphisms- NOT the symbols
+therefore consistency is derived from interpretation, not a natural property of
+formal systems
+inconsistency as mathematical and logical
+no system, sufficiently powerful, that is complete & consistent
+formalized number theory is incomplete or inconsistent
+
+ch5
+
+
+ch 6
+do messages have inherent meaning? do some messages carry meaning "context
+free"
+some messages have intrinsic meaning if intelligence is natural "intelligence as
+our brains"
+
+ch 7
+intro to prop calc
+all logic systems require some degree of faith eventually- difficulty in using
+logic and reasoning to defend themselves
+cant think out of system in prop calc- simple "formalized" derivations
+human thought & prop calculus not a perfect isomorphism
+    simple precise rules but doesn't mimic human reasoning
+its simplicity is useful to be inserted into larger systems- if contradictions
+come up its the fault of the larger system not prop calc
+
+
