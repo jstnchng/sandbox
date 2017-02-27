@@ -158,7 +158,62 @@ partial isomorphism
 same hardware, core signals
 self module too... communicates w other subsystems and symbols
 
+ch13
+BlooP and FlooP and GlooP
+Finally a chapter on a subject that I understand... good old computer languages
+introduces 3 computer languages with 3 levels of power
+bloop = language with bounded loops
+floop = language with free (unbounded) loops
+bare bones turing complete language
+gloop = the next level language, doesn't exist if you believe in CT thesis
+cannot increase power
+related to "http://wiki.c2.com/?PimcPiflPire"
 
+ch 14
+on formally undecidable propositions of TNT and related systems
+provides two parts of godels proof
+introduces the godel string G, shows how it's constructed
+if you assume consistency, shows G as an undecidable proposition
+proposes a way to "plug G or ~G" in, similar to Euclidean and Non Euclidean
+geometry
+interested in = how to show that this is applicable to ALL formal systems of
+sufficient power, not just TNT
+
+ch15
+Jumping out of the system
+reapply godels method after you plug in the system with G
+idea of essential incompleteness - even when you wrap up additions with a schema
+always 1 more hole
+typographical mold for these strings => arithmetical mold => can apply godels
+method
+relation to cantor's diagonal method (being apply to reapply once you add it to
+the list of numbers)
+godels method depends on basic conditions, without which a system would not be
+consistent or sufficiently powerful
+introduces Lucas's argument, that people are smarter than machines since we can
+always do this "godelization" and machines <=> formal systems
+Hofstadter argues that just bc there exists a godelization doesn't mean we can
+explicitly find it since we cannot algorithmically do it
+i.e. irregular irregularities that make it hard (infinite ordinals)
+
+ch16
+Self-Ref and Self-Rep
+look into biology and relates our formal system TNT, and an phonography analogy
+how do systems replicate themsevles, and how does information travel between
+different levels of such asystems?
+relate self producing entity and the systems external to it integral to this
+self replication
+introduces genetics
+how dna replicates itself, introducing ribosomes, encoding of enzymes in the
+dna, tRNA, mRNA
+phenomenon of self rep and self ref are one and the same in two different
+systems
+relate sufficiently strong cellular support system to permit self-rep to
+sufficiently powerful arithemtical formal system to permit self-ref
+level mixing in the cells, a very powerful information processing system
+
+ch17
+Church, Turing, Tarski, and Others
 
 
 Structure of the book
