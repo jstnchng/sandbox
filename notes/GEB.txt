@@ -94,4 +94,76 @@ human thought & prop calculus not a perfect isomorphism
 its simplicity is useful to be inserted into larger systems- if contradictions
 come up its the fault of the larger system not prop calc
 
+ch8
+typographical number theory
+presents TNT, an extension of prop calc
+number theoretic reasoning via rigid symbol manipulation
+includes rules, propositions, etc.
 
+ch9
+Mumon and Godel
+intro to Zen
+Godel numbering of a system, mapping symbols onto numbers
+=> theorems can be represented typographically AND arithmetically
+typographical rules manipulating numerals are the same as arithmetic rules
+manipulating numbers
+This makes statements about formal systems expressible in numbers, so
+expressible in number theory, so expressible in TNT!
+with JUST symbols in TNT, you can express statements about other formal systems
+can apply GODEL NUMBERING to ITSELF
+create TNT numbers, recursively enumerable set representing theorems in TNT
+construct LIARS PARADOX in TNT, find a string of TNT (also a statement of number
+theory) that is a string about itself
+key to showing TNT's incompleteness
+
+ch10
+levels of descriptions and computer systems
+explain levels of description for computer system (bits, machine, procedural,
+assembly)
+bootstrapping
+build up higher levels to make communication more natural (perhaps logic behind
+turing test)
+but are computers very rigid or very flexible?
+parallel software to hardware in humans
+sealing off of layers
+don't need to know about bits to program in a higher level
+idea of epiphenomenon- visible consequence of the overall system organization
+mind (top level) vs brain
+can we seal off consciousness and laws of thinking from cells? can we chunk
+thinking into subsystems? is consciousness an epiphenomenon or "located"
+somewhere?
+
+ch11
+Brains and Thought
+relating AI with human intelligence, boundaries of "thought"
+interested in how thought is supported by the brain
+lowest level is neurons
+highest level is thought
+how closely are two brains related?
+localization of the brain
+interested in how "concepts" arise in thought in our brain (modules)
+    hardware or software?
+this is important bc it is an assumption of AI
+if we can explain how symbol activation without discussing lower level neurons,
+then intelligence is a property that can be replicated outside of the brain
+(software property)
+
+ch12
+Minds and thoughts
+can we map minds onto each other, given the existence of "symbols?"
+how do we communicate between two separate physical brains?
+what do we have in common (There are some things) and what do we not have in
+common?
+partial isomorphism
+same hardware, core signals
+self module too... communicates w other subsystems and symbols
+
+
+
+
+Structure of the book
+examples
+system
+read the entire book sequentially
+
+many levels of enjoying the book
