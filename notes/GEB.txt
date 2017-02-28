@@ -214,11 +214,68 @@ level mixing in the cells, a very powerful information processing system
 
 ch17
 Church, Turing, Tarski, and Others
+relate computing power to mental activity, introduce various versions of the
+CT-Thesis
+pushes forward this idea:
+is it possible to simulate human thought in machinery?
+if we view thinking as high level descriptions of a system, which is governed by
+simple and strict rules on a lower level, can we replicate these high level
+descriptions on a lower level that DOESN'T consist of neurons?
+AI looks for the chunking of the formal system into an informal, level mixing,
+complex informal system
+CT-Thesis: (reductionist version)
+    underpinning of AI: all brain processes are derived from a computable
+    substrate
+mental processes of any sort can be simulated by a computer program written in a
+turing complete language
+model lower level things in order to mirror brain processes that allow real world
+understanding
+"skim" top level understanding when thinking mixes levels and is not necessarily
+deductive
+emerges as a CONSEQUENCE of these lower levels
+proposes some counterpoints that machines cannot emulate humans, that humans are
+in some sense "unattainable"
+one argument: humans are irrational, machines are rational
+    counter: humans are irrational but their lower levels are not, can be sim to
+    machines
+intelligence, essentially, doesn't lie in the lower levels, but in higher levels
+of mixing
 
+ch18
+Artificial Intelligence Retrospects
+turing test: how do we know when AI is intelligence?
+history of intelligence in programs
+"AI is whatever hasn't been done yet" : Tesler's Theorem
+stuff like translation, music, checkers, chess, theorem solving
+interesting discussion on "changing the problem space" and being able to reduce
+problem to subgoals
+q of representation of data: how do we store, procedurally, or declaratively?
+q: what kind of levels to put in? what kind of "intelligence" and how much to
+place at each level? how do these levels interact?
+
+ch19
+Artificial intelligence: Prospects
+different layers of context: AI idea of frames (kind of like schemas)
+discuss how different concepts interact
+how symbols are created, manipulated, compared
+mechanize creativity, intelligence, emotion
+Q: if we can compose a truly beautiful, indistinguishable piece of music from a
+computer that analyzes music / art, can we say that this not music/art because
+the computer doesn't necessarily understand it?
+analogous to someone writing a book, it being interpreted differently, and
+celebrated
+
+
+intelligence, consciousness, etc an emergent phenomenon
 
 Structure of the book
 examples
 system
 read the entire book sequentially
+
+chunking
+who am i writing this for?
+what fields are in the book?
+what does it mean to understand the book?
 
 many levels of enjoying the book
