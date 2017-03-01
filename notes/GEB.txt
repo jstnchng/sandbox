@@ -265,7 +265,44 @@ the computer doesn't necessarily understand it?
 analogous to someone writing a book, it being interpreted differently, and
 celebrated
 
+ch20 Strange Loops, or Tangled Hierarchies
+underneath every tangled hierarchy is an inviolate level, whether we see it or
+not
+godels theorem is not strictly applicable to minds
+people are very different from sufficiently complicated formal systems
+q: can we hope to understand our minds, or is there some godelian proposition
+that makes this impossible?
+producing an intelligent system that can manipulate symbols and achieve the
+same things our brain can isn't stopped by godels theorem
+consciousness as a high level phenomenon
+can understand godel string G not in the system, but can understand it on its
+"metalevel"
+    see how levels mirror each other
+emergent phenomenon in the brain is similar, based on a strange loop
+interaction b/w levels, top level reaches down towards bottom level and
+influences it, while at the same time determined by the bottom level
+self comes from being able to reflect itself
+self => symbols are used to model the situation and affect the decision
+    chunked concept of self in our brain
+on a low level it is strict, on a high level epiphenomenon emerge
+self reference = idea of godel, brings in nature, music, etc.
+eschers art also presents same idea of self reference, and hole in "Strange
+loop"
+fugue = mixing of levels and voices like in the mind (bach)
 
+6 part ricercar
+formal systems and recursion, figure and ground
+self reference self replication
+hierarchical systems
+
+on a lower level, we are governed by strict rules
+on a higher level, the informal systems that exist are a result of entangled
+hierarchies, of self reference resulting in level mixing
+influencing lower levels that influence us, various symbols that trigger and
+activate and change each other
+=> consciousness
+to simulate consciousness, we must simulate some of these lower levels (unsure
+how low, e.g. to neurons)
 intelligence, consciousness, etc an emergent phenomenon
 
 Structure of the book
