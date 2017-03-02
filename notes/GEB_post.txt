@@ -1,0 +1,212 @@
+This blog post is my review of Godel Escher Bach: An Eternal Golden Braid by
+Douglas Hofstadter, although to be technical this is really more of a summary/
+attempt to convince you to read this book. The only real review I have of this
+book is that it is brilliant and everyone should read it.
+Hofstadter has a genuine gift in presenting difficult concepts in a humorous but educational way,
+and connects examples from a wide range to bring together these concepts.
+
+I picked up this book
+a year and a half ago thanks to Steve Yegge's blog post (link), and this is one
+of the smartest books I have ever read. When I say smart, I
+don't mean the subject material of the book is difficult (although it sure is), or reading the book
+makes you smart (although it probably will help). I mean that the author and the
+book, not the reader, are smart,
+in the structure and content of the dialogues, the organization of the book, the braid he weaves connecting all these different
+topics, and just the various ways the book manages to refer to itself or talk about itself.
+
+My first readthrough of this book was during my lunch breaks at OTC Markets, and after reading this book I started to
+read some reviews of it. One of the reviews that I read was a retrospective by Hofstadter, who wrote 20
+years after the book was published that most people misunderstood his book as a
+random collection of things he finds interesting, and about how "math, art, and
+music are totally the same thing at the core man!!!" I found this tremendously
+funny and a little self gratifying since I thought I was clearly not one of
+those people. Months later, when I was recommending this book to a friend, he
+asked me what the book was about.
+
+Confidently, I answered- "Oh, this book is about how Godel, Escher, and Bach's
+ideas are connected and interwoven and how systems are limited and there's some
+stuff about Godel's incompleteness theorem and minds and each chapter is
+preceded by a dialogue between Achilles and a tortoise..."
+
+And that was when I realized I needed to reread the book.
+
+So this is my second attempt at reading through GEB, with the goal of really
+getting what this book is about. This time, while I was reading, everytime I'd
+finish reading a chapter or two I would take notes on what I'd learned from the
+chapter (they are messy, but they are unedited here). I planned on writing this post from the very start of my readthrough,
+and many times I felt like I should give up. One of the reasons is because
+Hofstadter is much smarter than I am, and I have none of his wit, intelligence,
+or way with words, so what he says in a super dense book I am surely incapable
+of capturing in a short blog post. I also felt like I was doing the book a big injustice, and I wanted to avoid condensing the book in a crappy lossy
+way, losing a lot of its beauty and brilliance in the meanwhile.
+
+I decided to keep going partly because I was already halfway, but mostly because I felt like it was
+helping me understand the book better. Perhaps that is why this blog post is
+a little messy still- I just couldn't make up my mind what I
+wanted this post to be or who I was writing this post for. But my original goal was threefold:
+1) to better understand GEB
+2) to convince you to give the book a shot
+3) to be corrected if I get anything wrong
+
+So what is GEB about?
+GEB is, as Hofstadter describes it, a "very personal attempt to say how it is
+that animate beings can come out of inanimate matter." It is an attempt to
+describe, postulate, and perhaps understand how consciousness and intelligence
+and notions of beauty and truth emerge from inflexible, hardwired neurons. How
+does the concept of "self" emerge from things as selfless as stones or ants?
+Before we attempt to program "artificial" intelligence, we must first understand what
+"real" intelligence is, and where it comes from.
+
+I hope to roadmap parts of his attempt here.
+
+The first half of the book, GEB, lays down some of the groundwork of the book,
+and prepares us for understanding Godel's Incompleteness Theorems (Any formal
+system able to do elementary arithmetic is either inconsistent or incomplete.
+Any formal system able to express its own consistency can prove its own
+consistency if and only if it is inconsistent.) This is explained in detail in the book, I am both unwilling and unable to explain it here.
+
+Some precursors include the notion of formal systems, with a natural subgoal
+being establishing a formal system that can express all statements of number theory with rules that correspond to our reasoning.
+The idea of theorems & non theorems is linked to the idea of figure and ground in
+art (especially in Escher's work). He also looks at notions and origins of
+meaning, introducing propositional calculus and its extension, a formal system
+he calls Typographical Number Theory (TNT). TNT is created to be capable of expressing all
+number theoretic reasoning in a formal system via rigid symbol manipulation.
+
+The next step is to "destroy" TNT as part of his proof of Godel's Incompleteness
+Theorem.
+
+To do so, Hofstadter introduces the idea of "Godel numbering" of a system, of
+mapping symbols of a formal system onto numbers. This is a key part of the proof
+allowing us to recreate the Liar's Paradox (___, more detail here) in TNT by
+allowing strings of TNT to talk about TNT.
+More formally, we can make statements about formal systems expressible in
+numbers, so expressible in number theory, so expressible in TNT! In essence, with symbols in
+TNT, you can express statements about TNT by applying Godel numbering to itself!!!
+These ideas are a very distilled summary of Part 1 (GEB), the first 9 chapters
+of the book.
+
+In Part 2 (EGB), Hofstadter shifts gears and focuses more closely his ideas of
+consciousness and intelligence, as well as a more detailed proof of Godel's theorems.
+We start by looking at different levels of description in computer systems and
+in brains. Computers are divided into several different levels from bits to
+machine language to procedural to assembly, with each
+successive higher level making communication more natural. This raises the interesting question
+of whether or not the brain is built in a similar set of levels, since this
+question is deeply tied into the possibility of equivalent intelligence in
+computers.
+If computers are supported on the lowest level by hardware, by bits, how is thought
+supported by the brain, and what is the hardware of the mind? On the lowest level we have neurons, on the highest
+level we have thought, and Hofstadter suggests that in the middle layers lie
+symbols, complicated references that trigger and are triggered by other symbols.
+
+We come back to Godel's Incompleteness Theorem when Hofstadter introduces Bloop,
+FlooP, and GlooP, three computer languages with increasing computation power. FlooP is a Turing
+Complete language (for those familiar with CS Theory), and GlooP is purely
+hypothetical  (since everything computable is computable by a Turing Machine according to the Church Turing Thesis).
+
+FlooP will make an interesting comeback later in the book. From FlooP and GlooP, Hofstadter
+does a detailed second passthrough Godel's theorem, introducing the Godel string G (the
+equivalent of the Liar Paradox for TNT), showing how it is constructed, and how
+G is an undecidable proposition in TNT.
+
+We now have a proof of TNT's incompleteness (assuming consistency), so the next
+natural step is to show how this is applicable to ALL formal systems of sufficient
+power, not just TNT. Using something analogous to Cantor's diagonal method,
+Hofstadter shows how there is an "essential incompleteness" in all of these
+systems, and somehow as soon as a system has the basic conditions needed to
+be consistent or sufficiently powerful Godel's method can be applied.
+
+What are some other examples through which Godel's theorem can be woven?
+Well, it turns out that there is an interesting analogy between self reference
+and self replication. Hofstadter compares self reference in Godel's theorem
+versus self replication in biology , particularly DNA and its self replication,
+relating sufficiently strong cellular support systems that permit self rep to
+sufficiently powerful arithmetical formal systems to permit self reference.
+
+In both of these examples, it is the LEVEL mixing that is very important, the
+presence of self reference that results in the applicability of the Godelian method.
+
+If all computer languages are equal in power to FlooP, and we are trying to
+simulate mental activity with computing power, how is computing power related to
+human thought, and can we simulate thought in machinery?
+If we view thinking as high level descriptions of a system
+governed by simple and strict rules on a lower level, can we replicate these
+high level descriptions on a lower level that doesn't consist of neurons?
+Hofstadter suggests because intelligence doesn't lie in the lower levels, but in
+higher levels of mixing, mental processes of any sort can be simulated by a
+computer program written in a Turing Complete language. He calls this the
+CT-Thesis, AI version, since this belief is at the underpinning of all efforts
+in AI.
+
+Hofstadter devotes the next two chapters of the book to retrospects and
+prospects of AI. Interesting retrospects include checkers, chess, translation,
+music composition, and language programs. I would be really interested in what
+Hofstadter has to say about current advances in AI, namely self driving cars,
+Alpha Go, and Google Translate, and how "intelligent" our artificial
+intelligence is nowadays. Interesting prospects include the AI idea of frames,
+similar to schemas or layers of context, which leads to a discussion on how
+different concepts interact and how symbols are created, manipulated, and
+compared. A question I had was, if we create a beautiful work of art or a piece
+of music from a computer program, and no listener can distinguish the piece as
+computer generated rather than human generated, can we still say that the work
+is not really music or art because the creator (computer) might not necessarily
+understand it?
+
+The last chapter of the book, Strange Loops, or Tangled Hierarchies, is a
+wonderful summary of some of the core concepts of the book, looking at other
+examples of strange loops and how Godel, Escher, and Bach tie together in an
+Eternal Golden Braid.
+
+A major theme explored in the book is
+Underneath every tangled hierarchy is an inviolate level, whether we see it or
+not
+
+Another *big point* I think I understood better from the second reading is that
+consciousness, intelligence, sense of self, and all the things that make us
+confidently divide humans and machines are
+high level phenomenons. These epiphenomenons
+are based on interactions between levels, where the top level
+reaches down towards the bottom level and influences it, while at the same time
+determined by the bottom level. On a low level, the hardware of our minds is
+strict, but on a high level, a fuzzy, informal level, epiphenomenon emerge.
+Therefore, to simulate intelligence in machines, Hofstadter proposes we must be
+able to simulate this same kind of fuzzy level mixing, this symbol manipulation
+that we do in our minds in our programs.
+
+This is the eponymous Eternal Golden Braid, and in my mind, this is what Godel
+Escher Bach is really about. The mathematician, the artist, and the musician are
+featured precisely because the strands of Godel's Incompleteness Theorem,
+Escher's art, and Bach's fugues share the integral core of level mixing
+ and self reference, woven together in this book into an Eternal Golden Braid.
+
+So that's my summary of GEB, EGB. There are many ways to view the book, I
+presented one that's kind of chunked along chapters. I think another interesting
+(but probably less fruitful) way to chunk the book is by fields. In his book,
+Hofstadter discusses formal systems, computer architecture, biology,
+neuroscience, computer languages, AI, mathematics, art, and music.
+I think perhaps one of the reasons why the core of this book is so hard to
+grasp is because he touches on so many topics and addresses so many things.
+
+Like Steve Yegge said, the book is a bit like really good chocolate cake- really
+rich and yummy, but also really hard to eat more than 1 or 2 servings of. Some
+people suggest that the reader skip around, read a few pages here and there, and
+pick up whatever
+section is interesting to them. I personally think that is a bad strategy for
+GEB. The author has a goal, a roadmap of ideas connected in a way that was only
+made clear to me when I read the chapters sequentially and understood each chapte
+relative to each other.
+
+That being said, I think there are many levels of enjoying the book. The
+dialogues are a delight to read; his examples are interesting; the connections
+are brilliant, and I think there's a lot to take away even if not read completely or read out of order.
+
+This is probably one of the most difficult blog posts I've written, and maybe
+the one with least value, because this book really just defies description. You
+really just have to read it, or even just parts of it. I hope you find it as
+interesting and illuminating as I did.
+
+
+
+
+
