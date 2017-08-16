@@ -6,6 +6,7 @@
 
 [alias]
   st = status
+  sts = status -s
   ci = commit
   cia = commit --amend
   cim = commit -m
