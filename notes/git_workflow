@@ -1,0 +1,47 @@
+git workflow:
+HEAD: last commit snapshot, parent of next commit, pointer to current branch
+Index: next commit snapshot (after git add)
+Workspace: just to edit files
+https://stackoverflow.com/questions/3689838/difference-between-head-working-tree-index-in-git
+
+https://stackoverflow.com/questions/8196544/what-are-the-git-concepts-of-head-master-origin
+master: name of default branch created by git
+origin: name for main remote repo
+
+git pull —rebase first
+git add .
+git commit -m
+git push -u <remote> <branch>
+    https://stackoverflow.com/questions/18031946/what-does-set-upstream-do
+create a pull request on web
+once its merged & accepted, push to origin master
+
+git co -b <newbranch>
+	creates and checks out new branch
+git lola
+	see the git commit graph
+
+RESET:
+--soft: moves what HEAD points to
+--mixed (or default): update index with contents of tree HEAD points to
+--hard: updates working directory as well
+
+git reset --hard HEAD~1
+	hard reset back 1 commit from head
+https://git-scm.com/blog/2011/07/11/reset.html
+https://stackoverflow.com/questions/2530060/can-you-explain-what-git-reset-does-in-plain-english
+
+REBASE:
+git rebase --onto <graft-point> <exclude-from> <include-from>
+rebase takes a fragment of git history, and rewrites it as if it began at a different commit
+git rebase applies all commmits found by:
+    git log <exclude-from>..<include-from>
+git rebase -i HEAD~1
+	interactive mode, change commits x commits from head
+for safety, since rebase modifies the branch you are rebasing, checkout new branch and rebase that
+    in order to avoid orphaned commits
+http://matthew-brett.github.io/pydagogue/rebase_without_tears.html
+
+git st
+	git status
+git push -u origin <branch>
