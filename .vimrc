@@ -20,15 +20,25 @@ Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " NERDtree lets you view the file system in a tree structure
 Plugin 'scrooloose/nerdtree'
-" easy commenting
+" Easy commenting
 Plugin 'scrooloose/nerdcommenter'
-" faster motion
+" Faster motion
 Plugin 'easymotion/vim-easymotion'
+" Looks nicer
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'junegunn/seoul256.vim'
 " Airline status bar
 Plugin 'bling/vim-airline'
 Plugin 'jeetsukumaran/vim-buffergator'
+" Move between windows faster
+Plugin 'wesQ3/vim-windowswap'
+" Async linting
+Plugin 'w0rp/ale'
+" Tab autocomplete
+Plugin 'ervandew/supertab'
+" Path finder
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'vimwiki/vimwiki'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -73,6 +83,7 @@ map <leader>k 10k
 map <leader>j 10j
 map <leader>w 5w
 map <leader>b 5b
+command NT NERDTree
 nnoremap <leader>O O<ESC>O
 nnoremap <leader>o o<cr>
 nnoremap <silent><leader>\ :set relativenumber!<cr>
@@ -107,13 +118,18 @@ let g:rbpt_colorpairs = [
     \ ]
 let g:rbpt_max = 15
 let g:rbpt_loadcmd_toggle = 0
-let g:seoul256_background = 233
+let g:seoul256_background = 236
 color seoul256
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:windowswap_map_keys = 0 "prevent default bindings
+nnoremap <silent> <leader>ss :call WindowSwap#EasyWindowSwap()<CR>et g:ctrlp_working_path_mode = 'ra'
+let g:vimwiki_list_ignore_newline = 0
 
-" autocommands
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-autocmd VimEnter * RainbowParenthesesToggle
+" ================ Autocommands =============
+au StdinReadPre * let s:std_in=1
+au VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
