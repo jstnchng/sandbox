@@ -1,0 +1,45 @@
+starting work, one of the items on my list was get better at my tools (vim, git,
+etc.)
+thought being a good programmer in part was captured by how slick you are with
+your tools, how fast you are
+and in some ways thats true but not in the sense of "hey shes a good programmer
+cause she can do freaking MACROS in vim man!!!" but thats actually imo the wrong
+way to look at things
+in a more general sense, tools and processes are not what's really important! i
+think there is a subtle but very important distinction between speed and
+perceived speed.
+how fast do you feel like you're going, versus how fast are you actually going?
+    Think about velocity of work versus value delivered- keystrokes != speed
+
+a proverb i think is relevant here is: it doesn't matter how fast you drive if
+you are on the wrong road
+
+the big question here is: what are you trying to achieve? if what you're trying
+to achieve is the fewest keystrokes possible to do a task, then yea maybe you
+should learn that snazzy new command. but if your goal is to deliver value, to
+write and ship some code, then learning to write stuff in fewer keystrokes is a
+possible solution to addressing that problem - *not the problem itself*. It is a
+means to an end, not the *end* itself.
+
+what is your first class citizen here: tools/processes, or value? the right
+question is how to maximize value, not how to maximize your efficiency w your
+tooling. don't optimize for a solution to
+the problem, optimize for the problem itself!
+
+another important point to make here is the mapper/packer distinction.
+tools as packets of knowledge (use [x] command enough times, it becomes muscle
+memory, awesome you added a bit of knowledge to your vim skills)
+or tools as a reflection of your mental model?
+tools and processes reflect a philosophy, you want to make sure that tthey properly reflect the appropriate philosophy of the best way to deliver value
+if you are too rigid on your tools, then you are forced to contort your mental
+mapping to your physical mapping
+a good example of this is using screen, when i was running stuff on dev at work
+i would have a tab for webservice, a tab for the frontend stuff, a tab for db,
+and i would force myself to memorize which tab is for which and sometimes i'd
+accidentally ctrl c the wrong thing
+i had a physical model of the world that i was forcing my mental model to be
+wrapped around, when i should use my tools to fit my mental mapping
+you use your tools, your tools dont use you! if they arent suiting your needs
+(i.e. properly reflecting your mental model) then dump them!
+
+What tools do you use, and more importantly what mental mappings do they reflect?
